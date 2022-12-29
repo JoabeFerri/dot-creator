@@ -44,12 +44,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #8F82CC;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: all 0.3s;
 }
 button:hover {
-  border-color: #646cff;
+  background-color: #BBADFF;
 }
 button:focus,
 button:focus-visible {
@@ -67,4 +67,16 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.buttons-space {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 16px;
+  max-width: 240px;
+}
+
+.button-margin {
+  margin-right: 16px;
 }
